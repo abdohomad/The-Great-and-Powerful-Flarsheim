@@ -18,15 +18,15 @@ while(end_game != "N"):
     print()    
     
     remainder2 = int(input("What is the remainder when your number is divided by 5 ?"))
-    while not( remainder2 >=0 or remainder2 <= 4): # While loop validating the user input and keep asking agin until the input not in range 0,1,2,4.
+    while not( remainder2 >=0 and remainder2 <= 4): # While loop validating the user input and keep asking agin until the input not in range 0,1,2,4.
         print("The value entered must be 0 or greater")
         remainder2 = int(input(f"What is the remainder when your number is divided by 5?"))
     print() 
         
     remainder3 = int(input("What is the remainder when your number is divided by 7 ?"))
-    while not( remainder2 >=0 or remainder2 <= 6):# While loop validating the user input and keep asking agin until the input not in range 0,1,2,3,4,5.
+    while not( remainder3 >=0 and remainder3 <= 6):# While loop validating the user input and keep asking agin until the input not in range 0,1,2,3,4,5.
         print("The value entered must be 0 or greater")
-        remainder2 = int(input(f"What is the remainder when your number is divided by 7?"))
+        remainder3 = int(input(f"What is the remainder when your number is divided by 7?"))
     print() 
 
     for number in range(1,101):# The user number is range 1 to 100
